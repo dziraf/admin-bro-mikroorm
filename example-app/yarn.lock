@@ -1422,6 +1422,13 @@ accepts@~1.3.7:
     mime-types "~2.1.24"
     negotiator "0.6.2"
 
+admin-bro-mikroorm@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/admin-bro-mikroorm/-/admin-bro-mikroorm-1.0.0.tgz#cbe91b33abefc0e8e5d2aa4ab816579ddfca5173"
+  integrity sha512-ln8AsY/gmlJv2otCzoSqGLXfZ02g7MsNacWgD92SOpz07Usb3vWfuVDtQfzUc5Ecu5huXunZ1B4xbLFHzUIsPQ==
+  dependencies:
+    flat "^5.0.2"
+
 admin-bro@^3.4.0-beta.9:
   version "3.4.0-beta.9"
   resolved "https://registry.yarnpkg.com/admin-bro/-/admin-bro-3.4.0-beta.9.tgz#f218815efbe54e66a1dbd239f5271fc07ba45283"
@@ -2593,6 +2600,11 @@ flat@^4.1.0:
   integrity sha512-FmTtBsHskrU6FJ2VxCnsDb84wu9zhmO3cUX2kGFb5tuwhfXxGciiT0oRY+cck35QmG+NmGh5eLz6lLCpWTqwpA==
   dependencies:
     is-buffer "~2.0.3"
+
+flat@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/flat/-/flat-5.0.2.tgz#8ca6fe332069ffa9d324c327198c598259ceb241"
+  integrity sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==
 
 follow-redirects@1.5.10:
   version "1.5.10"
