@@ -1,0 +1,9 @@
+version: "3"
+services:
+  db:
+    image: "postgres:13"
+    container_name: "example-app-psql"
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
