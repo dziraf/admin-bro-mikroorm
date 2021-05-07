@@ -26,7 +26,7 @@ export type AdapterORM = {
 const OrmNotFoundError = 'ORM is not set. Make sure to set it before registering the adapter: AdminBro.setORM(mikroOrmInstance)';
 
 export class Resource extends BaseResource {
-  public static orm: AdapterORM | null = null;
+  public static orm: AdapterORM;
 
   public static validate: any;
 
@@ -38,9 +38,9 @@ export class Resource extends BaseResource {
 
   constructor(model: EntityClass<AnyEntity>) {
     super(model);
+    this.model = model;
     this.metadata = Resource.orm?.metadata?.find(model.name);
     this.propertiesObject = this.prepareProperties();
-    this.model = model;
   }
 
   public static setORM(orm: MikroORM) {
