@@ -12,7 +12,7 @@
   "author": "Rafał Dzięgielewski <rafal.dzieg@gmail.com>",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "scripts": {
     "clean": "rm -fR lib",
