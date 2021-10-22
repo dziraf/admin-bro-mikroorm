@@ -1,3 +1,5 @@
+# The package has been moved to official repository: https://github.com/SoftwareBrothers/adminjs-mikroorm
+
 ## admin-bro-mikroorm
 
 This is an *unofficial* [admin-bro](https://github.com/SoftwareBrothers/admin-bro) adapter which integrates [MikroORM](https://github.com/mikro-orm/mikro-orm) into admin-bro.
